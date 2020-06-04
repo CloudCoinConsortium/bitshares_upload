@@ -70,11 +70,12 @@ Show Coins:
 
 ## Deployment Instructions
 - Nameserver (if needed): https://support.rackspace.com/how-to/changing-dns-settings-on-linux/
-- Setup Ruby On Rails on Ubuntu 16.04 - https://gorails.com/setup/ubuntu/16.04
-- Installing Passenger + Nginx on Ubuntu 16.04 LTS - https://www.phusionpassenger.com/library/install/nginx/install/oss/xenial/
-- Deploying a Ruby app on a Linux/Unix production server - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/xenial/deploy_app.html
+- Start - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/
+- Installing Ruby - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/nginx/oss/install_language_runtime.html
+- Installing Passenger + Nginx - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/nginx/oss/bionic/install_passenger.html
+- Deploying a Ruby App - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/nginx/oss/bionic/deploy_app.html
 - Change Client Max Body Size: https://serverfault.com/questions/814767/413-request-entity-too-large-in-nginx-with-client-max-body-size-set
-- Deploying application updates - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/deploy_updates.html
+- Deploying application updates - https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/nginx/oss/deploy_updates.html
 ```
 git pull
 bundle install --deployment --without development test
