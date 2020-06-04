@@ -11,12 +11,12 @@ Withdraw
 - Send .stack to end user
 
 ## IP Address
-13.232.170.28
+[[Hidden]]
 
 ## Configuration and System Dependencies
-- Ubuntu 16.04 LTS
-- ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
-- Rails 5.2.1
+- Ubuntu 20.04 LTS
+- ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
+- Rails 5.2.4.3
 - Create directories:
 	- /storage/upload
 	- /storage/download
